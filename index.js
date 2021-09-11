@@ -6,7 +6,6 @@ const inputObj = {
   rotateBy: 1
 };
 
-// Write Javascript code!
 const appContainer = document.getElementById('container');
 
 const clear = function() {
