@@ -12,3 +12,20 @@
   border: 1px dashed black;
   background-color: yellow;
 }
+
+.controls > div > input {
+  width: 50px;
+  height: 30px;
+  padding: 0.2em;
+  background-color: lightblue;
+  border: none;
+}
+
+.controls > div::before {
+  margin-right: 0.5px;
+  content: 'Rotate By: ';
+}
+
+.controls {
+  margin-top: 10px;
+}
